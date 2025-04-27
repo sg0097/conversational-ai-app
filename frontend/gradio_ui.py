@@ -2,7 +2,7 @@ import gradio as gr
 import requests
 
 # Backend server URL
-BACKEND_URL = "http://localhost:5000"
+BACKEND_URL = "https://conversational-ai-app.onrender.com/"
 
 # Function to call /set_model API
 def set_model(model_name):
