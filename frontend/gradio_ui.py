@@ -65,5 +65,6 @@ with gr.Blocks() as demo:
     clear_button.click(clear_chat, outputs=[chatbot, user_input])
 
 # Run Gradio app
-demo.launch(server_name="127.0.0.1", server_port=7860)
+demo.launch(server_name="0.0.0.0", server_port=7860)
+
 
